@@ -228,5 +228,12 @@ class WEB{
         }
         catch(Error $e){die("admin page error");}
     }
+    public static function api(){
+        include(join(DIRECTORY_SEPARATOR, array(Controllers,"api.php" )));
+        try{
+            API::startWeb();
+        }
+        catch(Error $e){die("api page error");}
+    }
 }
 ?>

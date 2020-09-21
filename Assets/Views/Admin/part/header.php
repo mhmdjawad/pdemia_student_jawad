@@ -18,6 +18,6 @@
     <script src="<?= SELF_DIR ?>Assets/System/db_build.js" ></script>
     <script src="<?= SELF_DIR ?>Assets/System/sys.js" ></script>
     <script> let BASE_DIR = '<?= SELF_DIR ?>admin'; </script>
-    <script src="//cdn.ckeditor.com/4.11.3/full/ckeditor.js"></script>
+    <!-- <script src="//cdn.ckeditor.com/4.11.3/full/ckeditor.js"></script> -->
 </head>
 <body>

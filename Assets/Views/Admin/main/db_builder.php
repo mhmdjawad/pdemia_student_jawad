@@ -1,3 +1,8 @@
+<script>
+    DBBuilder.tables = <?= json_encode(DAL::getTables()); ?>;
+    console.log(DBBuilder.tables);
+</script>
+
 <form action="" class="db_builder_form">
     <div class="form-group row">
         <label class="col-sm-2 col-form-label">Table Name</label>
@@ -7,6 +12,8 @@
         <thead>
             <th>Column Name</th>
             <th>Column Type</th>
+            <th>ActualName</th>
+            <th>ActualType</th>
             <th>Ctrl</th>
         </thead>
         <tbody></tbody>

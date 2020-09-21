@@ -8,6 +8,8 @@
     margin-top:-1px;
     font-weight:bold;
     background:#0db2b240;
+    height: 34px;
+    overflow: hidden;
     cursor:pointer;
 }
 .admin_side_nav .nav_item:hover{
@@ -16,4 +18,12 @@
 }
 .admin_side_nav .db_item{
     background:#0db2b299;
+}
+
+.table-db-builder tr td:nth-child(1){
+    width: 200px;
+}
+..actualNameTd{
+    font-weight: bold;
+    text-align: center;
 }

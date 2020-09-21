@@ -183,9 +183,16 @@ class Admin{
     public static function DBBuilder(){
         $f = (GORP == "GET") ? explode("/",URI) : explode("/",$_POST[key($_POST)]);
         $IX = (GORP == "GET") ? IX+1 :0;
+        
         ///TODO authenticate this
         if(!isset($f[$IX+1])){
             self::load_view("main","db_builder");
+        }
+        elseif(strtolower($f[$IX+1]) == strtolower("getTables")){
+            ob_clean();
+            header('Content-Type: application/json');
+            $tables = DAL::getTables();
+            echo json_encode($tables);
         }
         elseif($f[$IX+1] == "createTable"){
             $table_name = $_POST['table_name'];
@@ -222,6 +229,8 @@ class Admin{
             }
         }
         else{
+            p($IX);
+            p($f[$IX+1]);
             p($f);
         }
     }
