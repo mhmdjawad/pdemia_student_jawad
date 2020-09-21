@@ -1,0 +1,19 @@
+.admin_side_nav{
+    list-style:none;
+    padding:0;
+}
+.admin_side_nav .nav_item{
+    padding:4px;
+    border: 1px solid black;
+    margin-top:-1px;
+    font-weight:bold;
+    background:#0db2b240;
+    cursor:pointer;
+}
+.admin_side_nav .nav_item:hover{
+    background:#092046;
+    color:#fff;
+}
+.admin_side_nav .db_item{
+    background:#0db2b299;
+}

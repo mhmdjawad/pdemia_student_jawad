@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Handle Front Controller...
+    RewriteRule ^ ../../index.php [L]
+</IfModule>

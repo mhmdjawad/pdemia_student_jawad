@@ -1,0 +1,40 @@
+<p><iframe frameborder="0" height="315" src="https://www.youtube.com/embed/ks3NMw-QYg8" width="560"></iframe></p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="http://localhost/pdemia_students/Assets/Images/jpg/Hydrangeas.jpg" style="height:113px; width:150px" /></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><iframe frameborder="0" height="300px" scrolling="no" src="pdemia.com" width="100%"></iframe></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h1>3.1 MYSQL</h1>
+
+<p><br />
+MySQL is an open source relational database management system (RDBMS) based on Structured Query Language (SQL).<br />
+MySQL runs on virtually all platforms, including <strong>Linux</strong>, <strong>UNIX</strong>, and <strong>Windows</strong>. Although it can be used in a wide range of applications, MySQL is most often associated with web-based applications and online publishing and is an important component of an open source enterprise stack called LAMP. <strong>LAMP </strong>is a Web development platform that uses Linux as the operating system, Apache as the Web server, MySQL as the relational database management system and PHP as the object-oriented scripting language.</p>
+
+<h1>3.2 HTML5</h1>
+
+<p>&nbsp;<br />
+<span style="color:#e74c3c"><strong>HTML5 is the latest version of Hypertext Markup Language, the code that describes web pages. It&#39;s actually three kinds of code: HTML, which provides the structure; Cascading Style Sheets (CSS), which take care of presentation; and JavaScript, which makes things happen.<br />
+HTML5 has been designed to deliver almost everything you&#39;d want to do online without requiring additional software such as browser plugins. It does everything from animation to apps, music to movies, and can also be used to build incredibly complicated applications that run in your browser.<br />
+HTML5 isn&#39;t proprietary, so you don&#39;t need to pay royalties to use it. It&#39;s also cross-platform, which means it doesn&#39;t care whether you&#39;re using a tablet or a smartphone, a netbook, notebook or Ultrabook or a Smart TV: if your browser supports HTML5, it should work flawlessly. Inevitably, it&#39;s a bit more complicated than that. More about that in a moment.</strong></span></p>
+
+<h1>3.3 Cascading Style Sheets (CSS &amp;CSS3)&nbsp;</h1>
+
+<p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and X<span style="background-color:#f1c40f">HTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, </span>user interfaces for web applications, and user interfaces for many mobile applications.<br />
+CSS is designed primarily to enable the separation of presentation and content, including aspects such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .CSS file, and reduce complexity and repetition in the structural content.</p>
+
+<p>3.4 JAVASCRIPT (JS)&nbsp;</p>
+
+<p><br />
+JavaScript is an interpreted programming or script language from Netscape. It is somewhat similar in capability to Microsoft&#39;s Visual Basic, the UNIX-derived Perl, and IBM&#39;s REXX. In general, script languages are&nbsp;</p>
+
+<p>&nbsp;</p>
