@@ -66,9 +66,14 @@ class SYS{
     }
     static XHRForm(that){
         let fd = new FormData($(that).parents('form')[0]);
-        if($(that).parents('form').find("[name='html']").length > 0){
-            if(CKEDITOR.instances.html){
-                fd.append("html",CKEDITOR.instances.html.getData());
+        let htmls = $(that).parents('form').find("[name*='html']");
+        if(htmls.length > 0){
+            for(let i =0; i < htmls.length;i++){
+                let html = $(htmls[i]);
+                let name = html.attr("name");
+                if(CKEDITOR.instances[name]){
+                    fd.append(name,CKEDITOR.instances[name].getData());
+                }
             }
         }
         SYS.xhr_post(null,fd,"text",$(that).attr('to'),function(r,o){

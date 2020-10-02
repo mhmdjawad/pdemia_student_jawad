@@ -1,0 +1,1 @@
+mysql -u root information_schema < makedb.sql

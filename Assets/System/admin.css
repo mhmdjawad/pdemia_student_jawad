@@ -23,7 +23,7 @@
 .table-db-builder tr td:nth-child(1){
     width: 200px;
 }
-..actualNameTd{
+.actualNameTd{
     font-weight: bold;
     text-align: center;
 }

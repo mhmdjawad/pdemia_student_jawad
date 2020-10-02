@@ -185,8 +185,13 @@ class DAL{
                 elseif(strpos($c,"salt") > -1){
                     $html .= '<td> ***** </td>';
                 }
+                elseif(strpos($c,"image") >  -1){
+                    $ext = UTIL::ext($v);
+                    $url = SELF_DIR . "Assets/Images/$ext/$v";
+                    $html .= "<td><a targe=_blank href='$url'><img height=50 src='$url' ></a></td>";
+                }
                 elseif(strpos($c,"html") > -1){
-                    $html .= '<td> ***** </td>';
+                    $html .= '<td> <a target=_blank href="'.SELF_DIR.'getHtml/'.$t.'/'.$c.'/'.$d[$i][key($d[$i])].'" class = " fa fa-eye" >  view<a/> </td>';
                 }
                 elseif(strpos($c,"active") > -1){
                     $html .= '<td> '.($v == 1 ? 'yes' : 'no').' </td>';

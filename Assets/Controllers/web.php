@@ -235,5 +235,34 @@ class WEB{
         }
         catch(Error $e){die("api page error");}
     }
+    public static function getHtml(){
+        $f = (GORP == "GET") ? explode("/",URI) : explode("/",$_POST[key($_POST)]);
+        $IX = (GORP == "GET") ? IX : 1;
+        if(!isset($f[$IX+1])) die("missing table");
+        if(!isset($f[$IX+2])) die("missing column");
+        if(!isset($f[$IX+3])) die("missing id");
+        $table = $f[$IX+1];
+        $col = $f[$IX+2];
+        $id = $f[$IX+3];
+        $tables = DAL::getTables();
+        if(in_array($table,$tables)){
+            $d = DAL::getDALT($table,$id);
+            if(count($d) > 0){
+                $d = $d[$id];
+                if(isset($d[$col])){
+                    echo $d[$col];
+                }
+                else{
+                    p("unknown column $col");
+                }
+            }
+            else{
+                p("record identifier malformed $id");
+            }
+        }
+        else{
+            p("table $table is misformed in url");
+        }
+    }
 }
 ?>
